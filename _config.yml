@@ -13,7 +13,7 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: Daehyun	Kang
-  tagline: IULab master's student
+  tagline: IULab hongik univ.
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   search: true # set to true to enable searchbar
@@ -31,7 +31,7 @@ plainwhite:
     #linkedIn: in/samarsault
     #dribbble: jekyll
     #flickr: jekyll
-    #instagram: jekyll
+    instagram: nredom_
     #pinterest: jekyll
     #youtube: jekyll
     #facebook: jekyll
