@@ -1,5 +1,5 @@
-title: Daehyun's blog
-author: Daehyun Kang
+title: Daehyun's	blog
+author: Daehyun41
 email: eoen5131@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
   Write an awesome description for your new site here. You can edit this
@@ -12,8 +12,8 @@ show_excerpts: true # set to true to show excerpts on the homepage
 sass:
   sass_dir: _sass
 plainwhite:
-  name: Daehyun Kang
-  tagline: IULab master's student
+  name: Daehyun	Kang
+  tagline: IULab	master's	student
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   search: true # set to true to enable searchbar
@@ -27,10 +27,10 @@ plainwhite:
   # generate social links in footer
   social_links:
     twitter: samarsault
-    github:  Daehyun41
+    github: Daehyun41
     linkedIn: in/samarsault
     #dribbble: jekyll
-    #flickr:   jekyll
+    #flickr: jekyll
     #instagram: jekyll
     #pinterest: jekyll
     #youtube: jekyll
