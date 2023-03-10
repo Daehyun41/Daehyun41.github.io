@@ -58,3 +58,6 @@ plainwhite:
 plugins:
   - jekyll-seo-tag
 #  - jekyll-feed
+
+category_path: "category" # <- default value
+category_layout: "category.html" # <- default value
