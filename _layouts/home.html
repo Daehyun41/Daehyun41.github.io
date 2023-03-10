@@ -6,6 +6,31 @@ layout: default
 <h1 class="page-heading">{{ page.title }}</h1>
 {%- endif -%}
 
+<div class="site-category">
+    <ul class='cat1'>
+        <li>
+            <a href="/" class="ctext">Daily</a>
+            <ul>
+                <li><a href="/category/Daily" class="ctext">Daily</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="/" class="ctext">Paper_review</a>
+            <ul>
+                <li><a href="/category/Event_based_vision" class="ctext">Event_based_vision</a></li>
+                <li><a href="/category/Style_transfer" class="ctext">Style_transfer</a></li>
+                <li><a href="/category/Diffusion" class="ctext">Diffusion</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="/" class="ctext">Project</a>
+            <ul>
+                <li><a href="/category/IULab" class="ctext">IULab</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
 {{ content }}
 
 {%- if site.posts.size > 0 -%}
@@ -51,27 +76,6 @@ layout: default
     {%- endfor -%}
 </ul>
 
-<div class="site-category">
-    <ul class='cat1'>
-        <li><a href="/" class="ctext">Daily</a>
-            <ul>
-                <li><a href="/category/Daily" class="ctext">Daily</a></li>
-            </ul>
-        </li>
-        <li><a href="/" class="ctext">Paper_review</a>
-            <ul>
-                <li><a href="/category/Event_based_vision" class="ctext">Event_based_vision</a></li>
-                <li><a href="/category/Style_transfer" class="ctext">Style_transfer</a></li>
-                <li><a href="/category/Diffusion" class="ctext">Diffusion</a></li>
-            </ul>
-        </li>
-        <li><a href="/" class="ctext">Project</a>
-            <ul>
-                <li><a href="/category/IULab" class="ctext">IULab</a></li>
-            </ul>
-        </li>
-    </ul>
-</div>
 
 <!-- <p class="feed-subscribe"><svg class="svg-icon orange">
       <use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
